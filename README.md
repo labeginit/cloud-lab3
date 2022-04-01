@@ -10,10 +10,10 @@ After making sure there is at least one value in the array, next *for* loop goes
 
 The last *for* loop (lines 49-51) build a string for sending to the Client, which is sent to the client in line 54   
 
-The web server is deployed on ...
+The web server is deployed on Heroku.
 
 # Client-side
 
-The incoming responce data is being split into array. Then to print the valid word length of the words, the indexes have to be manipulated with. For this purpose i created a new array of objects with properties *length* and *frequency* (parsing the string to int), then printed the array as table using *console.table()*.
+The incoming responce data is being split into array. Then to print the valid word length of the words, the indexes have to be manipulated with. For this purpose i created a new array of objects with properties *length* and *frequency* (parsing the string to int), then printed the array as table using *console.table()*. After web server deployment, the URL was changed in the client to use Heroku.
 ![The printout of a request string and a response](/result.png)
 

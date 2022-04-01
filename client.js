@@ -6,7 +6,7 @@ const data = {
     //data: '' // response = 0 0 0 0 0 0 0 0 0 0 
 };
 
-axios.post('http://127.0.0.1:3000/getWordLengthFrequency', data)
+axios.post('https://rhubarb-crisp-25261.herokuapp.com/getWordLengthFrequency', data)
     .then((res) => {
         console.log(data);
         console.log();
