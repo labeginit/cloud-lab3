@@ -1,0 +1,16 @@
+{
+  "name": "cloud_lab3",
+  "version": "1.0.0",
+  "description": "DA376E VT22",
+  "main": "client.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liliia Allansson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  }
+}
