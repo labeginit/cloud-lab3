@@ -9,7 +9,13 @@ const data = {
 axios.post('http://127.0.0.1:3000/getWordLengthFrequency', data)
     .then((res) => {
         console.log(data);
-        console.log(res.data);
+        console.log();
+        const words = res.data.split(" ");
+        let arr = [];
+        for (let i=0; i<10; i++){
+            arr.push({length: i+1, frequency: parseInt(words[i])})
+        }
+        console.table(arr);
     }).catch((err) => {
         console.error(err);
     });

@@ -36,13 +36,11 @@ app.post('/getWordLengthFrequency', function (req, res) {
         } else {
             resultArr[value-1] = count;
             value = lengths[i];
-            console.log(value);
             count = 1;
             if (i == (lengths.length-1)){
                 resultArr[value-1] = count;
             }
         }
-    
       }
     } 
    
